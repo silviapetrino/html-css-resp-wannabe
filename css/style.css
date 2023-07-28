@@ -130,6 +130,64 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 600px;
+        width: 700px;
     }
 }
+
+@media screen and (max-width: 480px) {
+   
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        width: 450px;
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    .lessons {
+        padding-bottom: 3rem;
+    }
+
+
+    .lessons .col {
+        width: 100%;
+        padding-top: 1.8rem;
+    }
+
+    .steps, 
+    .why-us {
+        height: 100%;
+        margin: 0;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+     width: 100%;
+    }
+
+    .why-us .col-right {
+        padding-top: 4rem;
+    }
+
+}
+
+/* bonus */
